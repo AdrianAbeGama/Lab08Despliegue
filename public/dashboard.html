@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema de Autenticación JWT</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>Bienvenido a tu panel de control</p>
+        </header>
+        
+        <div class="user-info">
+            <h2>Información del Usuario</h2>
+            <div id="userInfo">
+                <p>Cargando información...</p>
+            </div>
+        </div>
+        
+        <div class="content-sections">
+            <div class="section" id="publicContent">
+                <h3>Contenido Público</h3>
+                <div class="content-box">
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            
+            <div class="section" id="userContent">
+                <h3>Contenido de Usuario</h3>
+                <div class="content-box">
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            
+            <div class="section" id="modContent">
+                <h3>Contenido de Moderador</h3>
+                <div class="content-box">
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            
+            <div class="section" id="adminContent">
+                <h3>Contenido de Administrador</h3>
+                <div class="content-box">
+                    <p>Cargando...</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="logout-section">
+            <button id="logoutBtn" class="btn btn-danger">Cerrar Sesión</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Laboratorio 07 - Desarrollo de Aplicaciones Web Avanzado</p>
+    </footer>
+    
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
