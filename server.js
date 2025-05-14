@@ -48,7 +48,7 @@ app.use("/api/auth", authRoutes);
 // Define la ruta base para pruebas de acceso según el rol del usuario: /api/test/*
 app.use("/api/test", userRoutes);
 
-// Define el puerto en el que se ejecutará el servidor. Usa 3000 por defecto si no hay una variable de entorno
+// Define el puerto en el que se ejecutará el servidor
 const PORT = process.env.PORT || 3000;
 
 // Sincroniza los modelos con la base de datos (sin borrar datos si force es false)
